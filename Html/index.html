@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        width: 60%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      }
+      thead tr {
+        background-color: #4fc3f7;
+        color: #fff;
+        text-align: left;
+      }
+      th,
+      td {
+        padding: 12px 18px;
+        border-bottom: 1px solid #ddd;
+      }
+      tbody tr:nth-child(even) {
+        background-color: #f6fafd;
+      }
+      tbody tr:hover {
+        background-color: #e3f2fd;
+        transition: background 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- heading -->
+
+    <h1>Hello, World!</h1>
+    <h2>Welcome to my website</h2>
+    <h3>Enjoy your stay!</h3>
+    <h4>Contact us at: deepaksaheb72@gmail.com</h4>
+    <h5>Follow us on social media!</h5>
+    <h6>Thank you for visiting!</h6>
+
+    <!-- paragraph -->
+    <p>
+      Lorem, <strong style="color: blue">ipsum</strong> dolor sit amet
+      consectetur adipisicing elit. Placeat aspernatur deleniti ratione labore
+      quis a esse sunt, aperiam corporis sit impedit voluptatibus alias
+      perspiciatis recusandae modi <i style="color: brown">commodi</i>?
+      Temporibus quos ratione ad omnis vitae vero quis possimus sunt, nam vel
+      laudantium, <small style="color: red">voluptatem</small>, iure magnam
+      nihil magni. Atque ut perferendis nobis quos exercitationem corporis,
+      quibusdam, repellendus dolores amet, doloremque quia doloribus odit.
+    </p>
+
+    <!-- link -->
+    <a href="https://www.google.com" target="_blank" style="color: red"
+      >google.com</a
+    >
+    <br />
+    <br />
+    <a
+      href="https://www.youtube.com"
+      target="_parent"
+      style="color: yellowgreen; text-decoration: none"
+      >youtube.com</a
+    >
+    <br />
+    <br />
+
+    <!-- image -->
+    <img
+      src="./Images/computer.jpg"
+      alt="Computer Image"
+      width="300"
+      height="200"
+    />
+    <br />
+    <br />
+
+    <img
+      src="data:image/jpeg;base64,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"
+      alt="Laptop Image"
+      width="300"
+      height="200"
+    />
+
+    <br />
+    <br />
+
+    <!-- list -->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+
+    <ol type="A">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <ol type="1">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <ol type="a">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <ol type="I">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <ol type="i">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ol>
+
+    <!-- table -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Person</th>
+          <th>Age</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>30</td>
+          <td>New York</td>
+        </tr>
+        <tr>
+          <td>Deepak</td>
+          <td>26</td>
+          <td>varanasi</td>
+        </tr>
+
+        <tr>
+          <td>Jane Smith</td>
+          <td>28</td>
+          <td>Los Angeles</td>
+        </tr>
+        <tr>
+          <td>Anjali</td>
+          <td>25</td>
+          <td>varanasi</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- div tags -->
+
+    <div>
+      <h2>About</h2>
+      <p>This is a simple HTML document demonstrating various elements.</p>
+    </div>
+
+    <!-- form -->
+    <form action="">
+      <label for="name"><span style="color:blue">Name:</span></label>
+      <input type="text" id="name" name="name" required placeholder="Enter your name" /><br />
+      <label for="age"><span style="color:blue">Age</span></label>
+      <input type="number" id="age" name="age" required placeholder="Enter your age" /><br />
+      <label for="city"><span style="color:blue">City</span></label>
+      <input type="text" id="city" name="city" required placeholder="Enter your city" /><br />
+      <label for="address"><span style="color:blue">Address</span></label>
+      <textarea name="address" id="address" required placeholder="Enter your address"></textarea>
+      <br />
+      <br />
+      <label for="gender"><span style="color:blue">Gender</span></label><br />
+      <input type="radio" name="gender" />
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" />
+      <label for="female">Female</label><br />
+      <input type="radio" name="gender" />
+      <label for="other">Other</label><br />
+      <br />
+      <label for="document"><span style="color: blue">Document</span></label>
+      <input type="file" id="document" name="document" /><br />
+      <br>
+       <button type="submit" style="background-color: green; color: white">
+      Submit
+    </button>
+    <button type="reset" style="background-color: red; color: white">
+      Reset
+    </button>
+    </form>
+   
+
+    <footer>
+      <strong><p>&copy; 2023 My Website</p></strong>
+    </footer>
+  </body>
+</html>
